@@ -1,0 +1,12 @@
+# Install Django
+Django==1.8.5
+
+# Required for Django timezones. This is from the django docs: https://docs.djangoproject.com/en/1.8/topics/i18n/timezones/
+pytz==2015.6
+
+# Postgres Database Adapter (requires 'python-dev' and 'libpq-dev' packages in Ubuntu)
+psycopg2==2.6.1
+
+# Database config loader
+dj-database-url==0.3.0
+south==1.0.2
