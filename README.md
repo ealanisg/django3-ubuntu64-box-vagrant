@@ -29,10 +29,10 @@ Retrieve the source code:
 After clone edit file _conf/vagrant_setup.sh (line 45)
 In order to apply correct user and password
 
-echo "Configuring postgres.."
-sudo -u postgres psql -c "create user vagrant with password 'vagrant';"
-sudo -u postgres psql -c "create database vagrant;"
-sudo -u postgres psql -c "grant all privileges on database vagrant to vagrant;"
+	echo "Configuring postgres.."
+	sudo -u postgres psql -c "create user vagrant with password 'vagrant';"
+	sudo -u postgres psql -c "create database vagrant;"
+	sudo -u postgres psql -c "grant all privileges on database vagrant to vagrant;"
 
 Where `my-project` is the name of your new website or project.
 
